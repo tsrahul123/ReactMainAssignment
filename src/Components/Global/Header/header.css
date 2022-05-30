@@ -1,0 +1,27 @@
+.header_div {
+  position: relative;
+  background-color: #f1f1f1;
+  padding: 30px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.inner_div {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.inner_div > a {
+  margin-right: 20px;
+}
